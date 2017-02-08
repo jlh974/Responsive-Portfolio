@@ -246,15 +246,62 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px)
-	{}
+  {
+    #logo {
+    margin: 0 auto;
+  }
+
+    <nav> {
+      margin: 0 auto;
+
+    }
+
+    .sidebar {
+      margin: 0 auto;
+
+    }
+  }
+  
 
 @media screen and (max-width: 768px)
-	{}
+  {
+    #logo {
+    margin: 0 auto;
+  }
+
+    <nav> {
+      margin: 0 auto;
+
+    }
+
+    .sidebar {
+      margin: 0 auto;
+
+    }
+  }
+	
 
 @media screen and (max-width: 640px)
 	{
 		<header> {
 			position: static;
+      
+  }
+
+  #logo {
+    margin: 0 auto;
+  }
+
+    <nav> {
+      margin: 0 auto;
+
+    }
+
+    .sidebar {
+      margin: 0 auto;
+
+    }
+  
 	}
 
 
